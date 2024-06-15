@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Sử dụng bộ chọn bằng tên thẻ */
+        /* h2 {
+            color: red;
+        } */
+
+        .demo {
+            color: green;
+        }
+
+        #id-css {
+            color: palevioletred;
+        }
+
+        /* div .abc { 
+            color: aquamarine;
+        } */
+
+        .a, .b, #c {
+            color: brown;
+        }
+
+
+        #cha > .abc {
+            color: burlywood;
+        }
+
+        p+span {
+            color: blue;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <p>Thẻ p</p>
+    <p>Thẻ p</p>
+    <p>Thẻ p</p>
+    <span>Thẻ span</span>
+    <span>Thẻ span</span>
+    <span>Thẻ span</span>
+    <p>Thẻ p</p>
+    <span>Thẻ span</span>
+
+
+    <!-- <h2>Hello</h2>
+
+    <h3 class="demo">Sử dụng bộ chọn class</h3>
+    <p class="demo">Sử dụng bộ chọn class</p>
+    <p>Hello</p>
+
+    <span id="id-css">Hello</span>
+    <span>Abc</span> -->
+
+
+    <div id="cha">
+        <h2 class="abc">Hello</h2>
+        <div>
+            <h2 class="abc">ABc</h2>
+        </div>
+        <h2 class="abc">Hello</h2>
+    </div>
+    <!-- <h2 class="abc">Hello</h2> -->
+
+    <!-- <span class="a">Demo</span>
+    <p class="b">Hello</p>
+    <div id="c">Hello</div> -->
+</body>
+</html>

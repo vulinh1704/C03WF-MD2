@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        h2 {
+            color: palevioletred;
+            width: 50px;
+        }
+
+        /* 
+        <bộ chọn> {
+            <thuộc tính>: <giá trị>;
+            <thuộc tính>: <giá trị>;
+        }
+        
+        */
+    </style>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href=" https://lib.css.demo">
+    
+    <!-- https://lib.css.demo -->
+</head>
+<body>
+    <h1 style="color: rebeccapurple; font-size: 20px;">Sử dụng trong thẻ HTML</h1>
+    <h2>Sử dụng internal</h2>
+    <h3>Sử dụng external</h3>
+    <h4 id="demo">Sử dụng bằng JS</h4>
+    <!-- 
+    Có 4 cách đưa css vào trang web
+    C1: Inline: Sử dụng trực tiếp trong thẻ HTML thuộc tính style.
+    C2: Internal: Sử dụng trong file nhưng nằm trong thẻ <style/>
+    C3: External: Sử dụng ở 1 file CSS bên ngoài (.css)
+    C4: Sử dụng thông qua JS
+    -->
+
+    <script>
+        document.getElementById("demo").style.color = "green";
+    </script>
+</body>
+</html>

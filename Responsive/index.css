@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    box-sizing: border-box; 
+    /* gộp chiều rộng border và padding và width và height của thẻ */
+}
+
+
+.header .text {
+    padding: 10px 0;
+}
+
+
+.content {
+    width: 100%;
+    height: auto;
+}
+
+.content .item {
+    width: calc(100% / 4 - 10px); 
+    height: 300px;;
+    border: 1px solid rgb(168, 166, 166);
+    float: left;
+    margin: 0 5px;
+}
+
+.item .image {
+    height: 80%;
+    width: 100%;
+}
+
+.item .text-content {
+    height: 20%;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.item .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.item:hover {
+    border: 1px solid black;
+}
+
+.description {
+    padding-top: 50px;
+}
+
+
+@media only screen and (max-width: 900px) {
+   .content .item {
+    width: calc(100% / 2 - 10px);
+    margin: 10px 5px;
+   }
+}
+
+@media only screen and (max-width: 600px) {
+    .content .item {
+     width: 100%;
+     margin: 10px 5px;
+    }
+ }
